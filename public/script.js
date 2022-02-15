@@ -11,7 +11,7 @@ async function onAdd() {
     });
     const data = await res.json();
 
-    list.innerHTML += `<li id="${variableName}">${variableName}: ${data[variableName]} <button onclick="onDelete(${variableName})">x</button></li>`;
+    list.innerHTML += `<li id="${variableName}">${variableName} : ${data[variableName]} <button onclick="onDelete(${variableName})">x</button></li>`;
 }
 
 function onDelete(element) {
