@@ -13,7 +13,8 @@ const fs = require('fs');
 
 dotenv.config();
 
-const PORT = process.env.PORT || 8080;
+process.env.PORT = process.env.PORT ? process.env.PORT : 8080;
+process.env.APPNAME = process.env.APPNAME ? process.env.APPNAME : 'KeySpot Demo';
 
 const app = express()
 
