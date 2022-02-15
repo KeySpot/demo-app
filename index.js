@@ -41,5 +41,5 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(process.cwd(), 'public', req.url));
 });
 
-console.log(`Serving ${process.env.APPNAME || 'KeySpot Demo App'} on port ${PORT}!`);
-http.createServer(app).listen(PORT);
+console.log(`Serving ${process.env.APPNAME || 'KeySpot Demo App'} on port ${process.env.PORT}!`);
+http.createServer(app).listen(process.env.PORT);
