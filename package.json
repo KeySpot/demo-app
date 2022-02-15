@@ -1,0 +1,23 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "description": "demo-app used to show off the core functionality of the cli tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keyspot/demo-app.git"
+  },
+  "author": "Carl Schader",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keyspot/demo-app/issues"
+  },
+  "homepage": "https://github.com/keyspot/demo-app#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2"
+  }
+}
