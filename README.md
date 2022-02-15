@@ -19,4 +19,5 @@ You can also run this same command using the KeySpot CLI:
 keyspot run "npm install" -r <record-name>
 ```
 
-# Navigating to ```localhost:<PORT>``` in a web browser will take you to the mini app. Here you can type in and add names of environment variables you want the server to expose.
+# In browser
+Navigating to ```localhost:<PORT>``` in a web browser will take you to the mini app. Here you can type in and add names of environment variables you want the server to expose.
